@@ -1,0 +1,14 @@
+CREATE TABLE user(
+	 Id_user INTEGER NOT NULL, 
+	 login VARCHAR(10), 
+	 password VARCHAR(10)
+);
+
+CREATE TABLE Employe(
+	Id_employe INTEGER NOT NULL, 
+	nom VARCHAR(20), 
+	prenom VARCHAR(20), 
+	num_cni VARCHAR(15), 
+	fonction VARCHAR(10), 
+	tel INTEGER NOT NULL
+);
